@@ -1,0 +1,154 @@
+/*font-family: 'Montserrat', sans-serif;
+ font-family: 'Roboto', sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+    
+}
+header{
+    height: 60px;
+    font-size:2rem;
+    background-color: #bee6cb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resume{
+    width: 90%;
+    height: 125vh;
+    background-color: rgb(255, 255, 255);
+    margin: 15px auto;
+    max-width: 600px;
+}
+.profile{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+}
+h1{
+    color:rgb(107, 105, 105);
+}
+
+.information{
+    background-color : #C4C6E7;
+    color:black;
+    font-size:20px;
+    display: flex;
+    gap: 30px;
+    height: 23vh;
+}
+.basic-information{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.list-information{
+    list-style: none;
+    font-size: 17px;
+    margin-left: 7px;
+    line-height: 20px;
+}
+.fa{
+    margin-right: 10px;
+    
+}
+.list-information a{
+    text-decoration: none;
+    color: black;
+}
+.list-information a:hover{
+    color: blue;
+}
+.side{
+    display: flex;
+    
+}
+.left{
+    width: 40%;
+    margin-right:10px ;
+}
+    /* skill start */
+.Skills{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.language,.intrest{
+    margin-left: 10px;
+    margin-top: 45px;
+}
+
+.skill-list ul{
+    list-style: none;
+    margin-left:35px;
+    line-height: 25px;
+    margin-top: 20px;
+
+}
+.intrest-list ul{
+    margin-left:35px;
+    line-height: 25px;
+    margin-top: 20px;
+}
+.right{
+    width: 60%;
+    margin-left: 7px;
+}
+.experience{
+    margin: 10px;
+}
+/* Education */
+.education,.project{
+    margin: 10px;
+}
+.edu-table,.exp-table,.proj-table{
+    display: flex;
+    margin-left: 5px;
+}
+.course, .role ,.decs{
+    width: 70%;
+    font-size: 15px;
+}
+.date{
+    width: 30%;
+    font-size: 15px;
+    display: flex;
+    justify-content:flex-end;
+    margin-right: 5px;
+    /* Education end */
+}
+.pbtn{
+    padding: 15px 35px;
+    display: flex;
+    margin: 0 auto;
+    border : none;
+    background-color: rgb(255, 0, 0);
+    border-radius: 10px;
+    color : white;
+    cursor: pointer;
+    transition: .3s ease;
+}
+.pbtn:hover{
+    background-color:rgb(175, 15, 15);
+    padding: 15px 50px;
+
+}
+
+footer{
+    height: 60px;
+    font-size:2rem;
+    background-color: #bee6cb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
